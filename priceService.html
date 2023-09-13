@@ -6,9 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/3dade04163.js" crossorigin="anonymous"></script>
     <title>Trang chủ - Mỹ thuật Nam Dương</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.css">
+    <link href='https://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Antonio:wght@100&family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link href="/index.css" rel="stylesheet">
+    <script src="/index.js" type="text/javascript"></script>
 </head>
 <body>
 
@@ -27,151 +37,53 @@
     <div class="firefly"></div>
     <div class="firefly"></div>
     <div class="firefly"></div>
-    <nav>
-        <div id="phone">
-            <a href="tel:+84967895107"><i class="fa-sharp fa-solid fa-phone-volume fa-shake fa-xs" style="color: #ff2929;"></i>0968933086</a>
-        </div>
-        <button id="menu">
-            <i class="fa-solid fa-bars fa-2xl" style="color: #317c3e;"></i>
-        </button>
-        <div class="nav-link">
-            <ul>
-                <li><a href="/index.html">Trang chủ</a></li>
-                <li><a href="/priceService.html">Bảng giá dịch vụ</a></li>
-                <li><a href="#">Về chúng tôi</a></li>
-            </ul>
-        </div>
-    </nav>
     
-    <div class="logo">
-        <img src="/image/logo.png" alt="">
-    </div>
+    <nav class="navbar navbar-expand-custom navbar-mainbg">
+      <a class="navbar-brand navbar-logo" href="#">MỸ THUẬT NAM DƯƠNG</a>
+      <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="fas fa-bars text-white"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+              <div class="hori-selector"><div class="left"></div><div class="right"></div></div>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+              </li>
+              <li class="nav-item active">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Address Book</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-clone"></i>Components</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-calendar-alt"></i>Calendar</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-chart-bar"></i>Charts</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="javascript:void(0);"><i class="far fa-copy"></i>Documents</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
 
-    <div class="container">
-        <div class="intro-1">
-            <img src="/image/logo_price.png" alt="slogan">
-        </div>
-
-        <div id="service">
-            <div class="service-content">
-                <h2>Dịch vụ vẽ tranh tường</h2>
-                <table>
-                    <tbody>
-                    <tr style="text-align: center;">
-                    <th><strong>DỊCH VỤ CUNG CẤP</strong></th>
-                    <th><strong>ĐƠN GIÁ</strong></th>
-                    <th><strong>LƯU Ý</strong></th>
-                    </tr>
-                    <tr>
-                    <td>Vẽ tranh tường mầm non, vẽ tranh tường đơn giản 2D</td>
-                    <td>150k –&gt; 250k/m2</td>
-                    <td>Diện tích &gt; 10m2</td>
-                    </tr>
-                    <tr>
-                    <td>vẽ tranh tường quán cafe, trà sữa, quán ăn, phòng gym, quán ăn, nhà hàng</td>
-                    <td>300k –&gt; 500k/m2</td>
-                    <td>Diện tích &gt; 10m2</td>
-                    </tr>
-                    <tr>
-                    <td><strong><a href="https://vetranhtuong.biz/ve-tranh-tuong-van-phong/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Tranh tường văn phòng</a></strong>, công ty, vẽ chữ logo theo thiết kế</td>
-                    <td>Tính chọn gói</td>
-                    <td>Liên hệ trực tiếp</td>
-                    </tr>
-                    <tr>
-                    <td>vẽ trần mây trang trí trần nhà đơn giản</td>
-                    <td>250k –&gt; 300k/m2</td>
-                    <td>Diện tích &gt; 10m2</td>
-                    </tr>
-                    <tr>
-                    <td><a href="https://vetranhtuongdart.com/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal"><strong>Vẽ trần mây cổ điển</strong></a>, tranh phục hưng</td>
-                    <td>600k –&gt; 2000k/m2</td>
-                    <td>Diện tích &gt; 10m2</td>
-                    </tr>
-                    <tr>
-                    <td>vẽ tranh tường phòng khách, tranh 3D</td>
-                    <td>300k –&gt; 800k/m2</td>
-                    <td>Diện tích &gt; 10m2</td>
-                    </tr>
-                    <tr>
-                    <td>vẽ tranh tường phòng ngủ</td>
-                    <td>250k –&gt; 500k/m2</td>
-                    <td>Diện tích &gt; 10m2</td>
-                    </tr>
-                    <tr>
-                    <td>vẽ tranh tường hoa sen 3D</td>
-                    <td>400k –&gt; 800k/m2</td>
-                    <td>Diện tích &gt; 10m2</td>
-                    </tr>
-                    <tr>
-                    <td>vẽ post điện</td>
-                    <td>500 triệu -&gt; 1500 triệu</td>
-                    <td>Trang trí post điện ngoài trời</td>
-                    </tr>
-                    <tr>
-                    <td><a href="https://vetranhtuongdart.com/ve-tuong-ngoai-troi/"><strong>Vẽ tranh tường ngoài trời</strong></a> ban công, tường trước sân</td>
-                    <td>400k –&gt; 600k/m2</td>
-                    <td>Diện tích &gt; 10m2 kèm phủ bóng</td>
-                    </tr>
-                    <tr>
-                    <td>vẽ tranh trên kính trang trí của hàng</td>
-                    <td>400k –&gt; 600k/m2</td>
-                    <td>Diện tích &gt; 10m2</td>
-                    </tr>
-                    <tr>
-                    <td><strong><a href="https://vetranhtuongdart.com/" target="_blank" rel="noreferrer noopener" data-wpel-link="internal">Vẽ tranh chân dung</a></strong>, vẽ theo ảnh, tranh sơn dầu ( tranh treo tường )</td>
-                    <td>Tính trọn gói</td>
-                    <td>
-                    <p>Tùy theo kích thước tranh</p>
-                    </td>
-                    </tr>
-                    </tbody>
-                    </table>
-            </div>
-        
-            <br>
-
-            <div class="service-content">
-                <h2>Dịch vụ vẽ kính</h2>
-                <table>
-                    <tbody>
-                    <tr style="text-align: center;">
-                    <th><strong>DỊCH VỤ CUNG CẤP</strong></th>
-                    <th><strong>ĐƠN GIÁ</strong></th>
-                    <th><strong>LƯU Ý</strong></th>
-                    </tr>
-                    <tr>
-                    <td>Vẽ tranh kính noel</td>
-                    <td>320k –&gt; 400k/m2</td>
-                    <td>Liên hệ để có giá tốt hơn</td>
-                    </tr>
-                    <tr>
-                    <td>Vẽ tranh kính Tết</td>
-                    <td>320k –&gt; 400k/m2</td>
-                    <td>Liên hệ để có giá tốt hơn</td>
-                    </tr>
-                    <tr>
-                    <td>Vẽ tranh kính Văn phòng</td>
-                    <td>Tính chọn gói</td>
-                    <td>Liên hệ để có giá tốt hơn</td>
-                    </tr>
-                    <tr>
-                    <td>Vẽ tranh kính theo yêu cầu</td>
-                    <td>Tính chọn gói</td>
-                    <td>Liên hệ chúng tôi để có giá tốt hơn!</td>
-                    </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-    </div>
+  <div class="project">
+    <img src="image/img_price/title.jpg" alt="title" width="70%" id="price-title">
+    <img src="image/img_price/price 1.jpg" alt="title" width="70%">
+    <img src="image/img_price/price 2.jpg" alt="title" width="70%">
+    <img src="image/img_price/price 3.jpg" alt="title" width="70%">
+  </div>
 
     <div id="footer">
         <p>
-            <span style="font-weight: bold; font-family: 'Alex Brush';font-size: 22px; font-size: 50px;">Mỹ thuật Nam Dương</span><br>
+            <span style=" font-family: 'Anton'; font-size: 50px;">MỸ THUẬT NAM DƯƠNG</span><br>
+            <span style="font-family: 'Amatic SC', cursive; font-size: 25px">
             Đội ngũ chúng tôi nhận thi công vẽ tranh tường khu vực TPHCM, Bình Dương, Đồng Nai và các tỉnh lân cận!<br>
-            Trân thành cảm ơn quý khách đã và đang đồng hành cùng với chúng tôi!<br>
-            <b>Địa chỉ:</b> S7, đường Kênh 19/5B, phường Tây Thạnh. quận Tân Phú, TP. Hồ Chí Minh<br>
-            <b>Hotline:</b> 0968933086
+            Trân thành cảm ơn quý khách đã và đang đồng hành cùng với chúng tôi!<br><br>
+            <b style="font-family: 'Amatic SC', cursive;">Địa chỉ:</b> S7, đường Kênh 19/5B, phường Tây Thạnh. quận Tân Phú, TP. Hồ Chí Minh<br>
+            <b style="font-family: 'Amatic SC', cursive;">Hotline:</b> 0968933086
+            </span>
         </p>
         <div id="fanpage">
             <p><b>FANPAGE</b></p>
@@ -180,7 +92,6 @@
         </div>
     </div>
 
-    <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.js"></script>
