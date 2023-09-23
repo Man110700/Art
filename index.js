@@ -11,6 +11,7 @@ menuButton.addEventListener('click', () =>{
 */
 
 // ---------Responsive-navbar-active-animation-----------
+
 function test(){
 	var tabsNewAnim = $('#navbarSupportedContent');
 	var selectorNewAnim = $('#navbarSupportedContent').find('li').length;
@@ -482,14 +483,50 @@ $( ".button_su_inner" ).mouseenter(function(e) {
   });
   
   // Custom options for the carousel
-  var args = {
-	  arrowRight : '.arrow-right', //A jQuery reference to the right arrow
-	  arrowLeft : '.arrow-left', //A jQuery reference to the left arrow
+  var argsSlide1 = {
+	  arrowRight : '.right-slide1', //A jQuery reference to the right arrow
+	  arrowLeft : '.left-slide1', //A jQuery reference to the left arrow
 	  speed : 1000, //The speed of the animation (milliseconds)
-	  slideDuration : 4000 //The amount of time between animations (milliseconds)
+	  slideDuration : 600000 //The amount of time between animations (milliseconds)
   };
+  var argsSlide2 = {
+	arrowRight : '.right-slide2', //A jQuery reference to the right arrow
+	arrowLeft : '.left-slide2', //A jQuery reference to the left arrow
+	speed : 1000, //The speed of the animation (milliseconds)
+	slideDuration : 600000 //The amount of time between animations (milliseconds)
+};
+var argsSlide3 = {
+	arrowRight : '.right-slide3', //A jQuery reference to the right arrow
+	arrowLeft : '.left-slide3', //A jQuery reference to the left arrow
+	speed : 1000, //The speed of the animation (milliseconds)
+	slideDuration : 600000 //The amount of time between animations (milliseconds)
+};
+var argsSlide4 = {
+  arrowRight : '.right-slide4', //A jQuery reference to the right arrow
+  arrowLeft : '.left-slide4', //A jQuery reference to the left arrow
+  speed : 1000, //The speed of the animation (milliseconds)
+  slideDuration : 600000 //The amount of time between animations (milliseconds)
+};
+var argsSlide5 = {
+	arrowRight : '.right-slide5', //A jQuery reference to the right arrow
+	arrowLeft : '.left-slide5', //A jQuery reference to the left arrow
+	speed : 1000, //The speed of the animation (milliseconds)
+	slideDuration : 600000 //The amount of time between animations (milliseconds)
+};
+var argsSlide6 = {
+  arrowRight : '.right-slide6', //A jQuery reference to the right arrow
+  arrowLeft : '.left-slide6', //A jQuery reference to the left arrow
+  speed : 1000, //The speed of the animation (milliseconds)
+  slideDuration : 4000 //The amount of time between animations (milliseconds)
+};
+
   
-  $('.carousel').Zippy(args);
+  $('.slide1').Zippy(argsSlide1);
+  $('.slide2').Zippy(argsSlide2);
+  $('.slide3').Zippy(argsSlide3);
+  $('.slide4').Zippy(argsSlide4);
+  $('.slide5').Zippy(argsSlide5);
+  $('.slide6').Zippy(argsSlide6);
 
 }
 

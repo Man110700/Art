@@ -21,7 +21,7 @@ body{
 #callme {
   position: fixed;
   right: 50px;
-  bottom: 100px;
+  bottom: 50px;
   width: 70px;
   height: 70px;
   cursor: pointer;
@@ -1890,37 +1890,27 @@ tbody{
   font-size: 55px;
   text-align: center;
   margin-top: -30px;
-  margin-bottom: 50px;
   font-weight: bold;
 }
 
 .project h2
 {
   font-family: 'Amatic SC', cursive; 
-  font-size: 40px;
+  font-size: 35px;
   text-align: center;
-  margin-bottom: 30px;
   margin-top: 30px;
+}
+
+.project-item
+{
+  width: 100%;
+  margin-top: 20px;
 }
 
 .group
 {
  display: flex;
  justify-content: space-around;
-}
-
-.item-image
-{
- display: flex;
- flex-wrap: wrap;
- justify-content: center;
- gap: 5em;
- margin-bottom: 50px;
-}
-
-.item-image img
-{
-  width: 600px;
 }
 
 /*price*/
@@ -1934,7 +1924,7 @@ tbody{
 .wrapper{
   width:60%;
   position:relative;
-  margin:5% auto 0;
+  margin: auto;
 }
 
 /**
@@ -1944,7 +1934,8 @@ tbody{
  * to set the height as a ratio of the width
  *
  */
-.carousel{
+.carousel
+{
 	width: 100%;
 	position: relative;
 	padding-top: 60%;
@@ -2124,19 +2115,147 @@ tbody{
 	text-align:center;
   padding-top:25%;
   background-size: 100% 100%;
+  background-color: #F4F4F4;
 }
 
-.slide:nth-child(1){
+.A1:nth-child(1){
 	background-image:url(/image/img_project_Bundle1/Nem_store_A_1.jpg);
  }
-
-.slide:nth-child(2){
+.A1:nth-child(2){
 	background-image:url(/image/img_project_Bundle1/Nem_store_A_2.jpg);
 }
-
-.slide:nth-child(3){
+.A1:nth-child(3){
 	background-image:url(/image/img_project_Bundle1/Nem_store_A_3.jpg);
- }
- .slide:nth-child(4){
+}
+.A1:nth-child(4){
 	background-image:url(/image/img_project_Bundle1/Nem_store_A_4.jpg);
+}
+
+.A2:nth-child(1){
+	background-image:url(/image/img_project_Bundle1/Yoga_1.jpg);
  }
+.A2:nth-child(2){
+	background-image:url(/image/img_project_Bundle1/Yoga_2.jpg);
+}
+.A2:nth-child(3){
+	background-image:url(/image/img_project_Bundle1/Yoga_3.jpg);
+}
+.A2:nth-child(4){
+	background-image:url(/image/img_project_Bundle1/Yoga_4.jpg);
+}
+
+.A3:nth-child(1){
+	background-image:url(/image/img_project_Bundle1/Spa_1.jpg);
+ }
+.A3:nth-child(2){
+	background-image:url(/image/img_project_Bundle1/Spa_2.jpg);
+}
+
+.A4:nth-child(1){
+	background-image:url(/image/img_project_Bundle1/Sushi_1.jpg);
+ }
+.A4:nth-child(2){
+	background-image:url(/image/img_project_Bundle1/Sushi_2.jpg);
+}
+
+.A5:nth-child(1){
+	background-image:url(/image/img_project_Bundle1/Food_1.jpg);
+ }
+.A5:nth-child(2){
+	background-image:url(/image/img_project_Bundle1/Food_2.jpg);
+}
+.A5:nth-child(3){
+	background-image:url(/image/img_project_Bundle1/Food_3.jpg);
+}
+
+.A6:nth-child(1){
+	background-image:url(/image/img_project_Bundle1/Cafe_1.jpg);
+ }
+.A6:nth-child(2){
+	background-image:url(/image/img_project_Bundle1/Cafe_2.jpg);
+}
+.A6:nth-child(3){
+	background-image:url(/image/img_project_Bundle1/Cafe_3.jpg);
+ }
+.A6:nth-child(4){
+	background-image:url(/image/img_project_Bundle1/Cafe_4.jpg);
+}
+.A6:nth-child(5){
+	background-image:url(/image/img_project_Bundle1/Cafe_5.jpg);
+}
+.A6:nth-child(6){
+	background-image:url(/image/img_project_Bundle1/Cafe_6.jpg);
+ }
+.A6:nth-child(7){
+	background-image:url(/image/img_project_Bundle1/Cafe_7.jpg);
+}
+.A6:nth-child(8){
+	background-image:url(/image/img_project_Bundle1/Cafe_8.jpg);
+}
+.A6:nth-child(9){
+	background-image:url(/image/img_project_Bundle1/Cafe_9.jpg);
+}
+.A6:nth-child(10){
+	background-image:url(/image/img_project_Bundle1/Cafe_10.jpg);
+}
+
+
+.B1:nth-child(1){
+	background-image:url(/image/img_project_Bundle2/House_B_1.jpg);
+ }
+.B1:nth-child(2){
+	background-image:url(/image/img_project_Bundle2/House_B_2.jpg);
+}
+
+.B2:nth-child(1){
+	background-image:url(/image/img_project_Bundle2/House_A_1.jpg);
+ }
+.B2:nth-child(2){
+	background-image:url(/image/img_project_Bundle2/House_A_2.jpg);
+}
+.B2:nth-child(3){
+	background-image:url(/image/img_project_Bundle2/House_A_3.jpg);
+ }
+.B2:nth-child(4){
+	background-image:url(/image/img_project_Bundle2/House_A_4.jpg);
+}
+.B2:nth-child(5){
+	background-image:url(/image/img_project_Bundle2/House_A_5.jpg);
+ }
+.B2:nth-child(6){
+	background-image:url(/image/img_project_Bundle2/House_A_6.jpg);
+}
+
+.B3:nth-child(1){
+	background-image:url(/image/img_project_Bundle2/House_D_1.jpg);
+ }
+.B3:nth-child(2){
+	background-image:url(/image/img_project_Bundle2/House_D_2.jpg);
+}
+
+.B4:nth-child(1){
+	background-image:url(/image/img_project_Bundle2/House_E_1.jpg);
+ }
+.B4:nth-child(2){
+	background-image:url(/image/img_project_Bundle2/House_E_2.jpg);
+}
+.B4:nth-child(3){
+	background-image:url(/image/img_project_Bundle2/House_E_3.jpg);
+ }
+.B4:nth-child(4){
+	background-image:url(/image/img_project_Bundle2/House_E_4.jpg);
+}
+
+.B5:nth-child(1){
+	background-image:url(/image/img_project_Bundle2/House_F_2.jpg);
+ }
+.B5:nth-child(2){
+	background-image:url(/image/img_project_Bundle2/House_G_2.jpg);
+}
+.B5:nth-child(3){
+	background-image:url(/image/img_project_Bundle2/House_G_3.jpg);
+ }
+ .B5:nth-child(4){
+	background-image:url(/image/img_project_Bundle2/House_G_4.jpg);
+ }
+
